@@ -19,7 +19,12 @@
 			 cout << a << " + " << b << " = " << a + b << endl; // выполнить сложение
 			 break;
 			 }
-	
+	 case 2: // если count = 2
+		 {
+			 cout << a << " - " << b << " = " << a - b << endl; // выполнить вычитание
+			 break;
+			 }
+	 
 	 default: // если count равно любому другому значению
 		 cout << "Nepravilni vvod" << endl;
 		 }
