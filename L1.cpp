@@ -24,7 +24,16 @@
 			 cout << a << " - " << b << " = " << a - b << endl; // выполнить вычитание
 			 break;
 			 }
-	 
+	 case 3: // если count = 3
+		 {
+			 cout << a << " * " << b << " = " << a * b << endl; // выполнить умножение
+			 break;
+			 }
+	 case 4: // если count = 4
+		 {
+			 cout << a << " / " << b << " = " << a / b << endl; // выполнить деление
+			 break;
+			 }
 	 default: // если count равно любому другому значению
 		 cout << "Nepravilni vvod" << endl;
 		 }
